@@ -1,0 +1,47 @@
+Parameters returned from 
+from darksky.net API    
+{ time: 1587022646,
+  summary: 'Mostly Cloudy',
+  icon: 'partly-cloudy-day',
+  precipIntensity,
+  precipProbability,
+  temperature,
+  apparentTemperature,
+  dewPoint,
+  humidity,
+  pressure,
+  windSpeed,
+  windGust,
+  windBearing,
+  cloudCover,
+  uvIndex,
+  visibility,
+  ozone
+}
+
+Sample Parameters json returned from OpenWeather API 
+{ coord: { lon: 77.42, lat: 28.67 },
+  weather: [ { id: 721, main: 'Haze', description: 'haze', icon: '50d' } ],
+  base: 'stations',
+  main: 
+   { temp: 307.15,
+     feels_like: 305.35,
+     temp_min: 307.15,
+     temp_max: 307.15,
+     pressure: 1008,
+     humidity: 23 },
+  visibility: 3500,
+  wind: { speed: 2.6, deg: 310 },
+  clouds: { all: 40 },
+  dt: 1587022573,
+  sys: 
+   { type: 1,
+     id: 9165,
+     country: 'IN',
+     sunrise: 1586996603,
+     sunset: 1587042980 },
+  timezone: 19800,
+  id: 1271308,
+  name: 'Ghaziabad',
+  cod: 200 
+}

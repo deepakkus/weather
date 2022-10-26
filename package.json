@@ -1,0 +1,21 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "local": "serverless invoke local --function getWeather",
+    "dev": "node app.js"
+  },
+  "author": "Dev Tyagi",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "serverless": "^1.72.0",
+    "express": "^4.17.1"
+  }
+}
